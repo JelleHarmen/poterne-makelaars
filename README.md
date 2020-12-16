@@ -1,7 +1,18 @@
 # poterne
 De geheime toegangspoort naar uw droomwoning
 
-Vue 3 Project
+!! Work in pogress.
+
+Vue 3 Project - using tailwind CSS
+Project to learn how to use Tailwind CSS instead of Bootstrap.
+
+
+VueJS 3
+https://v3.vuejs.org/guide/introduction.html
+
+Tailwind CSS
+https://tailwindcss.com
+
 
 ### Installation 
 `npm install`
