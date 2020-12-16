@@ -3,10 +3,10 @@ De geheime toegangspoort naar uw droomwoning
 
 Vue 3 Project
 
-### installation 
+### Installation 
 `npm install`
 
-### start project
+### Start project
 `npm run serve`
 
 #### Routes / Live Demo 
