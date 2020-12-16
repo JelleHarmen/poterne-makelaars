@@ -3,11 +3,11 @@ De geheime toegangspoort naar uw droomwoning
 
 Vue 3 Project
 
-## installation 
+### installation 
 `npm install`
 
-## start project
+### start project
 `npm run serve`
 
 #### Routes / Live Demo 
-poterne.jelleharmen.com
+https://poterne.jelleharmen.com
