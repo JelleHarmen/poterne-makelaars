@@ -20,5 +20,5 @@ https://tailwindcss.com
 ### Start project
 `npm run serve`
 
-#### Routes / Live Demo 
-https://poterne.jelleharmen.com
+#### Live Demo 
+https://poterne-makelaars.netlify.app/
