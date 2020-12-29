@@ -1,5 +1,5 @@
 <template>
-  <form action="">
+  <form @submit.prevent="submitForm()">
     <div class="mb-2 md:mb-0">
       <label for="search" class="dark:text-white"
         >Waar zoekt u uw droomhuis?</label
@@ -41,6 +41,9 @@
 <script>
 export default {
   name: "SearchField",
+  methods: {
+    submitForm() {},
+  },
 };
 </script>
 

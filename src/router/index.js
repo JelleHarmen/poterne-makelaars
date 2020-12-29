@@ -1,7 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
-import Property from "../views/Property.vue";
+import Estate from "../views/Estate.vue";
 import Login from "../views/Login.vue";
+import CreateEstate from "../views/CreateEstate.vue";
 
 const routes = [
   {
@@ -10,9 +11,15 @@ const routes = [
     component: Home,
   },
   {
-    path: "/:ownership/:city/:name-:id-:street",
-    name: "Property",
-    component: Property,
+    path: "/:is_rental/:city/:id/:title",
+    name: "Estate",
+    component: Estate,
+    props: true,
+  },
+  {
+    path: "/huis-aanmelden",
+    name: "CreateEstate",
+    component: CreateEstate,
     props: true,
   },
   {

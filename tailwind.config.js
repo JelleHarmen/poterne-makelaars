@@ -17,6 +17,7 @@ module.exports = {
       borderRadius: ["hover"],
       rotate: ["first", "last", "hover"],
       translate: ["first"],
+      opacity: ["disabled"],
     },
   },
   plugins: [],

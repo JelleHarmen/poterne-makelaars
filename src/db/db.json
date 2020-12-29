@@ -1,0 +1,165 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "user_role": 9,
+      "username": "van Mourik",
+      "fullname": "Harmen van Mourik",
+      "phone": "0653250395",
+      "email": "hallo@jelleharmen.com"
+    },
+    {
+      "id": 2,
+      "user_role": 0,
+      "username": "Nieuwland",
+      "fullname": "Judi Nieuwland",
+      "phone": "0654267432",
+      "email": "nieuw@jelleharmen.com"
+    },
+    {
+      "id": 3,
+      "user_role": 1,
+      "username": "Poterne Makelaars",
+      "fullname": "Harmen van Mourik",
+      "phone": "0654267432",
+      "email": "pm@jelleharmen.com"
+    },
+    {
+      "id": 4,
+      "user_role": 8,
+      "username": "Harry",
+      "fullname": "Harry de Vries",
+      "phone": "0654267432",
+      "email": "beheerder@jelleharmen.com"
+    }
+  ],
+  "user_roles": [
+    {
+      "id": 0,
+      "title": "Particulier"
+    },
+    {
+      "id": 1,
+      "title": "Zakelijk account"
+    },
+    {
+      "id": 8,
+      "title": "Beheerder"
+    },
+    {
+      "id": 9,
+      "title": "Admin"
+    }
+  ],
+  "estates": [
+    {
+      "id": 1,
+      "owner": 1,
+      "estate_id": 1,
+      "is_rental": false,
+      "title": "Koopwoning in gorinchem",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac volutpat purus. Praesent ut cursus velit. Sed nec aliquam tortor. Integer interdum quam id sodales rhoncus. Duis vitae consequat odio, vel rutrum magna. Nulla facilisi. Praesent dictum magna id neque pretium, vitae scelerisque massa varius. Aliquam nisl mauris, facilisis in velit eu, fermentum consectetur purus.",
+      "street": "Koningin Wilhelminalaan 134",
+      "zip_code": "4207ER",
+      "city": "Gorinchem",
+      "locality": "Wijdschild",
+      "price": 780000,
+      "image_header": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8aG91c2V8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+      "id": 2,
+      "owner": 2,
+      "estate_id": 2,
+      "is_rental": false,
+      "title": "Huurwoning in gorinchem",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac volutpat purus. Praesent ut cursus velit. Sed nec aliquam tortor. Integer interdum quam id sodales rhoncus. Duis vitae consequat odio, vel rutrum magna. Nulla facilisi. Praesent dictum magna id neque pretium, vitae scelerisque massa varius. Aliquam nisl mauris, facilisis in velit eu, fermentum consectetur purus.",
+      "street": "Glacis 6a",
+      "zip_code": "4207EB",
+      "city": "Gorinchem",
+      "price": 1600,
+      "image_header": "https://images.unsplash.com/photo-1584483533365-6a51ce60ce16?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8aG91c2UlMjBuZXRoZXJsYW5kc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+      "id": 3,
+      "owner": 3,
+      "estate_id": 4,
+      "is_rental": false,
+      "title": "Koop garagebox in Gorinchem",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac volutpat purus. Praesent ut cursus velit. Sed nec aliquam tortor. Integer interdum quam id sodales rhoncus. Duis vitae consequat odio, vel rutrum magna. Nulla facilisi. Praesent dictum magna id neque pretium, vitae scelerisque massa varius. Aliquam nisl mauris, facilisis in velit eu, fermentum consectetur purus.",
+      "street": "Hoofdwal 33",
+      "zip_code": "4207EX",
+      "city": "Gorinchem",
+      "price": 80000,
+      "image_header": "https://images.unsplash.com/photo-1540284967811-45db2e228b2e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8aG91c2UlMjBuZXRoZXJsYW5kc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+      "id": 4,
+      "owner": 4,
+      "estate_id": 3,
+      "is_rental": false,
+      "title": "Kantoorruimte",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac volutpat purus. Praesent ut cursus velit. Sed nec aliquam tortor. Integer interdum quam id sodales rhoncus. Duis vitae consequat odio, vel rutrum magna. Nulla facilisi. Praesent dictum magna id neque pretium, vitae scelerisque massa varius. Aliquam nisl mauris, facilisis in velit eu, fermentum consectetur purus.",
+      "street": "Vestingweg 36",
+      "zip_code": "4207EE",
+      "city": "Gorinchem",
+      "price": 120,
+      "image_header": "https://images.unsplash.com/photo-1580618398679-2d5e5d5d4af4?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8aG91c2UlMjBuZXRoZXJsYW5kc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+      "id": 5,
+      "owner": 3,
+      "estate_id": 1,
+      "is_rental": false,
+      "title": "Koopwoning in gorinchem",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac volutpat purus. Praesent ut cursus velit. Sed nec aliquam tortor. Integer interdum quam id sodales rhoncus. Duis vitae consequat odio, vel rutrum magna. Nulla facilisi. Praesent dictum magna id neque pretium, vitae scelerisque massa varius. Aliquam nisl mauris, facilisis in velit eu, fermentum consectetur purus.",
+      "street": "Lingsesdijk 1",
+      "zip_code": "4207EA",
+      "city": "Gorinchem",
+      "locality": "Wijdschild",
+      "price": 780000,
+      "image_header": "https://images.unsplash.com/photo-1586860475241-ebd59e5bb07f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzB8fGhvdXNlJTIwbmV0aGVybGFuZHN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+      "id": 6,
+      "owner": 2,
+      "estate_id": 2,
+      "is_rental": false,
+      "title": "Huurwoning in gorinchem",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac volutpat purus. Praesent ut cursus velit. Sed nec aliquam tortor. Integer interdum quam id sodales rhoncus. Duis vitae consequat odio, vel rutrum magna. Nulla facilisi. Praesent dictum magna id neque pretium, vitae scelerisque massa varius. Aliquam nisl mauris, facilisis in velit eu, fermentum consectetur purus.",
+      "street": "Merwededijk 88",
+      "zip_code": "4207EN",
+      "city": "Gorinchem",
+      "locality": "Wijdschild",
+      "price": 1600,
+      "image_header": "https://images.unsplash.com/photo-1607982834394-59d6b01f8348?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+    },
+    {
+      "id": 7,
+      "owner": 3,
+      "estate_id": 3,
+      "is_rental": false,
+      "title": "Koop garagebox in Gorinchem",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac volutpat purus. Praesent ut cursus velit. Sed nec aliquam tortor. Integer interdum quam id sodales rhoncus. Duis vitae consequat odio, vel rutrum magna. Nulla facilisi. Praesent dictum magna id neque pretium, vitae scelerisque massa varius. Aliquam nisl mauris, facilisis in velit eu, fermentum consectetur purus.",
+      "street": "Woelsedonk 90",
+      "zip_code": "4207EH",
+      "city": "Gorinchem",
+      "locality": "Wijdschild",
+      "price": 80000,
+      "image_header": "https://images.unsplash.com/photo-1586246518102-8ba0d34dbf20?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDJ8fGhvdXNlJTIwbmV0aGVybGFuZHN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+      "id": 8,
+      "owner": 2,
+      "estate_id": 4,
+      "is_rental": false,
+      "title": "huur garagebox in Gorinchem",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac volutpat purus. Praesent ut cursus velit. Sed nec aliquam tortor. Integer interdum quam id sodales rhoncus. Duis vitae consequat odio, vel rutrum magna. Nulla facilisi. Praesent dictum magna id neque pretium, vitae scelerisque massa varius. Aliquam nisl mauris, facilisis in velit eu, fermentum consectetur purus.",
+      "street": "Elisabeth Kuyperstraat 2",
+      "zip_code": "4207EJ",
+      "city": "Gorinchem",
+      "locality": "Wijdschild",
+      "price": 120,
+      "image_header": "https://images.unsplash.com/photo-1490197415175-074fd86b1fcc?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTh8fGhvdXNlJTIwbmV0aGVybGFuZHN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+    }
+  ]
+}

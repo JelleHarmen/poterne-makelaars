@@ -10,7 +10,7 @@
           v-for="property in returnNewestProperties"
           class="transform lg:first:-rotate-1 lg:first:translate-y-1 lg:last:rotate-1 lg:last:translate-y-1 lg:hover:rotate-0"
         >
-          <PropertyCard :property="property" />
+          <EstateCard :property="property" />
         </div>
       </div>
 
@@ -32,11 +32,11 @@
 import properties from "@/config/properties.js";
 
 // single card to display a property may be used in a for loop
-import PropertyCard from "@/components/PropertyCard.vue";
+import EstateCard from "@/components/EstateCard.vue";
 
 export default {
   name: "PropertiesSection",
-  components: { PropertyCard },
+  components: { EstateCard },
   data() {
     return {
       properties,

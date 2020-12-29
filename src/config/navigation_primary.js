@@ -11,4 +11,8 @@ export default [
     title: "Inloggen",
     name: "Login",
   },
+  {
+    title: "Huis aanmelden",
+    name: "CreateEstate",
+  },
 ];
